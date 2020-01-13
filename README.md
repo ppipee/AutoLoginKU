@@ -1,14 +1,16 @@
-##Auto Login KU
+## Auto Login KU
 
 [Login KU](https://login.ku.th)
 
-###How to
+### How to
 
 - install package
 
 ```
 yarn or npm i
 ```
+
+#### Setup
 
 - create file user.js
 - create object that include "id" and "password"
@@ -20,6 +22,8 @@ module.exports = {
   password: 'password'
 }
 ```
+
+#### Run
 
 ```
 node index.js
