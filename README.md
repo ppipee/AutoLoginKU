@@ -2,7 +2,7 @@
 
 [Login KU](https://login.ku.th)
 
-### How to
+## How to
 
 - install package
 
@@ -10,11 +10,12 @@
 yarn or npm i
 ```
 
-#### Setup
+### Setup
 
 - create file user.js
 - create object that include "id" and "password"
-- example
+
+#### example
 
 ```javascript
 module.exports = {
@@ -23,7 +24,7 @@ module.exports = {
 }
 ```
 
-#### Run
+### Run
 
 ```
 node index.js
