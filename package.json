@@ -1,0 +1,9 @@
+{
+  "name": "LoginKU",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^2.0.0"
+  }
+}
