@@ -13,7 +13,7 @@ yarn or npm i
 ### Setup
 
 - create file config.js
-- export object that include "id" and "password"
+- export object that include "id" ,"password" and "browserPath" (for execute browser)
 
 #### example
 
@@ -21,6 +21,7 @@ yarn or npm i
 module.exports = {
   id: 'username',
   password: 'password',
+  browserPath: '/usr/bin/google-chrome-stable',
 }
 ```
 
