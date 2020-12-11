@@ -12,15 +12,15 @@ yarn or npm i
 
 ### Setup
 
-- create file user.js
-- create object that include "id" and "password"
+- create file config.js
+- export object that include "id" and "password"
 
 #### example
 
 ```javascript
 module.exports = {
   id: 'username',
-  password: 'password'
+  password: 'password',
 }
 ```
 
