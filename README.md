@@ -31,6 +31,7 @@ module.exports = {
   id: 'username',
   password: 'password',
   browserPath: '/usr/bin/google-chrome-stable',
+  url: 'login.ku.ac.th',
 }
 ```
 
