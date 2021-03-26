@@ -2,18 +2,20 @@ const puppeteer = require('puppeteer-core')
 const config = require('./config')
 
 const TTL = 10
+const DEFAULT_BROWSER_PATH = '/usr/bin/google-chrome-stable'
+const LOGIN_URL = 'https://login.ku.ac.th/'
 
 ;(async () => {
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: null,
-    executablePath: config.browserPath,
+    executablePath: config.browserPath || DEFAULT_BROWSER_PATH,
     args: ['--fast-start', '--disable-extensions', '--no-sandbox'],
     ignoreHTTPSErrors: true,
   })
   let page = await browser.newPage()
 
-  await page.goto('https://login.ku.ac.th/')
+  await page.goto(config.url || LOGIN_URL)
 
   const id = config.id
   const password = config.password
