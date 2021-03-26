@@ -44,7 +44,7 @@ const LOGIN_URL = 'https://login.ku.ac.th/'
     try {
       await page.evaluate(() => {
         if (document.querySelector('#submit')) {
-          document.document.querySelector('#submit').click()
+          document.querySelector('#submit').click()
         } else {
           document.querySelector('.btn.btn-success.btn-xs').click()
         }
