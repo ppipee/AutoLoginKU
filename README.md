@@ -1,4 +1,4 @@
-## Auto Login KU
+## KU Auto Login
 
 [Login KU](https://login.ku.th)
 

@@ -35,7 +35,7 @@ const LOGIN_URL = 'https://login.ku.ac.th/'
     } catch (e) {
       console.log('#error', e)
       continue
-    }
+    }document
   }
 
   await page.waitForNavigation()
